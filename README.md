@@ -1,6 +1,7 @@
 # React Expense Tracker App
 
 Developer: Jerry Sirisavath
+
 Initial Commit To GitHub: 04-26-23
 
 ## Introduction
