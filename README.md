@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# React Expense Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Developer: Jerry Sirisavath
+Initial Commit To GitHub: 04-26-23
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+The Expense Tracker App is a user-friendly React application designed to assist users in managing their personal finances. By tracking income and expenses, this app provides a clear overview of financial activities, enabling better budgeting and financial planning.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the Expense Tracker App:
+1. Ensure you have Node.js and npm installed.
+2. Clone the repository to your local machine.
+3. Navigate to the project directory in your console.
+4. Run the command `npm start` to launch the app on a web server.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Expense and Income Tracking:** Users can input and track their expenses and income, categorizing them for better financial management.
+- **Dynamic Data Management:** Utilizes state hooks (`useState`) for handling dynamic data, reflecting changes in real-time as users interact with the app.
+- **User-Friendly Interface:** Designed with a focus on simplicity and ease of use, ensuring a seamless user experience.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="1437" alt="Screenshot 2024-01-09 at 10 48 06 PM" src="https://github.com/JSirisavath/expense-tracker-react/assets/122318778/b27df611-8a18-4a68-87c4-eb319020aee0">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1439" alt="Screenshot 2024-01-09 at 10 49 57 PM" src="https://github.com/JSirisavath/expense-tracker-react/assets/122318778/8aa1c621-73a0-4e52-b1a1-0e3dc446ee83">
 
-### `npm run eject`
+<img width="1438" alt="Screenshot 2024-01-09 at 10 50 35 PM" src="https://github.com/JSirisavath/expense-tracker-react/assets/122318778/41fb7fce-034a-4d55-a165-c0699986a203">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="1437" alt="Screenshot 2024-01-09 at 10 51 42 PM" src="https://github.com/JSirisavath/expense-tracker-react/assets/122318778/95a1756d-c5c6-4de4-9e24-a4a56b9964ce">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1440" alt="Screenshot 2024-01-09 at 10 52 13 PM" src="https://github.com/JSirisavath/expense-tracker-react/assets/122318778/520317c0-e3dc-4ec7-a45f-257a4c51441d">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="1440" alt="Screenshot 2024-01-09 at 10 52 32 PM" src="https://github.com/JSirisavath/expense-tracker-react/assets/122318778/699514dc-7f53-447e-890d-12e12d4b712d">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="1440" alt="Screenshot 2024-01-09 at 10 52 58 PM" src="https://github.com/JSirisavath/expense-tracker-react/assets/122318778/43934c37-785f-4d45-8a44-aa5259afd071">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technical Insights
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React Framework:** The app is built using React, showcasing the efficiency in developing with beautiful UI/UX while keeping in mind the user's experience and data flow.
+- **State Management with Hooks:** Prior to hooks, state management in React was confined to class components. The introduction of hooks like `useState` has revolutionized this, allowing for state management in functional components. This project emphasizes my understanding and implementation of these hooks to manage component states effectively.
+- **Responsive Design:** The app is crafted to be responsive, ensuring a consistent experience across various devices and screen sizes.
 
-### Code Splitting
+## Personal Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project was instrumental in enhancing my understanding of React's functional components and state management. The challenge of implementing hooks for dynamic data handling has significantly improved my skills in modern React development practices.
 
-### Analyzing the Bundle Size
+## Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Plans for future development of the Expense Tracker App include:
 
-### Making a Progressive Web App
+- Implementing more advanced features such as budget planning and financial reports.
+- Integrating a database for persistent storage of user data.
+- Enhancing the user interface with more interactive elements and visualizations of financial data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Conclusion
 
-### Advanced Configuration
+The Expense Tracker App represents a significant step in my journey as a React developer. It showcases not only my technical skills but also my commitment to creating practical, user-centric software solutions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Thank you for your interest in the Expense Tracker App. Feedback and contributions are highly appreciated!
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
